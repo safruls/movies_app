@@ -12,6 +12,7 @@ const SearchResult = ({ movie }) => {
     <>
       <CardContainer key={movie?.Title}>
         <Card
+          data-testid="result-display"
           hoverable
           style={{ width: 240 }}
           cover={

@@ -25,6 +25,7 @@ const SearchBar = ({ page }) => {
   return (
     <SearchSection>
       <Input.Search
+        data-testid="input-search"
         placeholder="Search movies title..."
         allowClear
         enterButton="Search"
