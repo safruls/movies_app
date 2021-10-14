@@ -4,6 +4,7 @@ import { Spin } from "antd";
 const Spinner = () => {
   return (
     <div
+      data-testid="spinny-thingy"
       style={{
         height: "100vh",
         display: "flex",
